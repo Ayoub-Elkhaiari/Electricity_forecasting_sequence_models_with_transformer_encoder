@@ -141,6 +141,7 @@ The project provides visualization utilities for:
 ## Results: 
 
 - in `main_with_each_model.py` :
+  
 ![Screenshot 2024-11-14 081510](https://github.com/user-attachments/assets/abca57e8-0ba2-40ff-bc1e-2c1d35b36e43)
 
 ![Screenshot 2024-11-14 081523](https://github.com/user-attachments/assets/f9e9762e-6ff8-4702-abc4-8f352ada36df)
@@ -154,6 +155,9 @@ The project provides visualization utilities for:
 - in `main_with_all_models.py` :
 
 ![Screenshot 2024-11-14 081904](https://github.com/user-attachments/assets/8a2eeac5-542e-472d-90d1-816a0f1f79f3)
+
+
+We observe that the RNN model outperforms the other models in this use case. The primary reason is the small size of the dataset. Models like LSTM, GRU, and Transformers are designed to capture long-range dependencies in sequences, which is advantageous for larger datasets with complex temporal patterns. However, given the limited data, the simpler RNN architecture is sufficient and more effective, as it doesn't require the complexity needed to learn long-range dependencies, thus performing better in this scenario.
 
 
 ## 🤝 Contributing
